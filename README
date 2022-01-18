@@ -1,0 +1,33 @@
+This is the API code generator for my project WithLithum.Core series.
+
+To use this, simply build this repository, and then you'd just execute the
+output repo with the only parameter of what namespace you want to generate,
+like this (beware of that's case sensitive):
+
+	./WithLithum.ApiCodeGen PED
+
+If there is any thing you need to fix (like pointers), you'll get the following
+message:
+
+	Warning: Native with hash (hash) needs your attention.
+
+The "(hash)" should be a hash of the native. You can just simply copy that hash
+and then Ctrl+F in VS or whether your editor is, and you'll get to whatever
+that native is.
+
+Note that natives with Any parameter / return values are automatically
+generated as object type. You might want to fix that.
+_______________________________________________________________________________
+
+If it didn't compile..
+_______________________________________________________________________________
+
+If anything doesn't compile and this tool didn't warn you, raise an issue.
+
+_______________________________________________________________________________
+
+Additional licenses
+_______________________________________________________________________________
+
+The "natives.json" is from https://github.com/alloc8or/gta5-nativedb-data,
+by alloc8or and it's contributors.
