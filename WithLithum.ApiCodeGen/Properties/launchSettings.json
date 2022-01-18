@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WithLithum.ApiCodeGen": {
+      "commandName": "Project",
+      "commandLineArgs": "SYSTEM"
+    }
+  }
+}
